@@ -232,6 +232,17 @@ Example:
 >
         let g:ack_use_cword_for_empty_search = 0
 <
+                                                              *g:ack_quickhelp*
+g:ack_quickhelp
+Default: 1
+
+Set to 0 to disable the '?' keybinding to show the quickhelp. Use this option
+if you are a frequent user of the '?' default binding to do reverse search.
+
+Example:
+>
+        let g:ack_quickhelp = 0
+<
 ==============================================================================
 MAPPINGS                                                        *ack-mappings*
 

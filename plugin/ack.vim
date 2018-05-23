@@ -44,7 +44,7 @@ else
 endif
 
 if !exists("g:ack_quickhelp")
-  let g:ack_quickhelp = 0
+  let g:ack_quickhelp = 1
 endif
 
 if !exists("g:ack_qhandler")
