@@ -43,6 +43,10 @@ else
   let g:ack_mappings = s:ack_mappings
 endif
 
+if !exists("g:ack_quickhelp")
+  let g:ack_quickhelp = 0
+endif
+
 if !exists("g:ack_qhandler")
   let g:ack_qhandler = "botright copen"
 endif
